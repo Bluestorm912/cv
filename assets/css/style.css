@@ -1488,7 +1488,7 @@ section {
 
 }
 
-.form-submit-button {
+#form-submit-button {
      background:#0F00FF;
       color: #fff;
      border-style:none;
