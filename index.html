@@ -5,12 +5,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Bluestorm912</title>
-   <link rel="icon" href="assets/images/mine/favicon.png">
+  <link rel="icon" href="assets/images/mine/favicon.png">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/font/flaticon.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Loading screen -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <!-- =================Body Started==================== -->
 
@@ -18,6 +23,18 @@
 
 <body>
   <!-- =================================********================================= -->
+  <div id="circle">
+    <div class="loader">
+      <div class="loader">
+        <div class="loader">
+          <div class="loader">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- loading screen ends -->
   <div id="show_menuitems" class="my-menu">
     <div class="menu-box">
       <span>
@@ -27,8 +44,8 @@
         <li><a onclick="hide_menu()" href="#home">Home</a></li>
         <li><a onclick="hide_menu()" href="#about">Specialization</a></li>
         <li><a onclick="hide_menu()" href="#resume">Resume</a></li>
-        <li><a onclick="hide_menu()" href="#portfolio">Projects</a></li>
-        <li><a onclick="hide_menu()" href="#textimonial">Reviews</a></li>
+        <!-- <li><a onclick="hide_menu()" href="#portfolio">Projects</a></li> -->
+        <!-- <li><a onclick="hide_menu()" href="#textimonial">Reviews</a></li> -->
         <li><a onclick="hide_menu()" href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -103,7 +120,8 @@
                   It was a free for all environment with really no direction.
                   Esports has been around in Nigeria to the best of my knowledge since 2008/2009 but it wasn't until 2019 esports began real development in Nigeria and I'm certain i palyed a role in that development.
                   You see when i started the NGC, the plan was to be the middle man connecting the gamers to the tournament Organisers making it easier for people to access information regarding thier favorite games in Nigeria. <br><br>
-                  I still carry out that plan even till today with <strong>Nexal Gaming Community</strong> but on a much larger scale and with teams of content creators, content writers, graphic designers, web designers, tournament managers and of course gamers. <br> <br>
+                  I still carry out that plan even till today with <strong>Nexal Gaming Community</strong> but on a much larger scale and with teams of content creators, content writers, graphic designers, web designers, tournament managers and of
+                  course gamers. <br> <br>
                   So let me ask you this,<span class="blue-color"> what would you like to know about Esports in Nigeria and even more so, how can I be of assistance?</span>
 
                 </p>
@@ -255,7 +273,7 @@
             </div>
           </div>
           <div class="inter">
-            <h6>RESUME</h6>
+            <h6>EXPERIENCE</h6>
           </div>
         </div>
       </div>
@@ -268,7 +286,7 @@
         <div class="my-wrapper">
           <div class="wrapper-box">
             <div class="content"> -->
-              <!-- <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+  <!-- <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
                 <li class="nav-item">
                   <a class="nav-link active" id="free-template" data-toggle="tab" href="#free" role="tab" aria-controls="free" aria-selected="true">Web Designing</a>
                 </li>
@@ -280,9 +298,9 @@
                 </li>
               </ul> -->
 
-              <!-- <div class="tab-content" id="myTabContent"> -->
-                <!-- ------------***----------- -->
-                <!-- <div class="tab-pane fade show active" id="free" role="tabpanel" aria-labelledby="free-template">
+  <!-- <div class="tab-content" id="myTabContent"> -->
+  <!-- ------------***----------- -->
+  <!-- <div class="tab-pane fade show active" id="free" role="tabpanel" aria-labelledby="free-template">
                   <div class="content-list">
                     <ol>
                       <li>
@@ -368,8 +386,8 @@
                     </ol>
                   </div>
                 </div> -->
-                <!-- ------------***----------- -->
-                <!-- <div class="tab-pane fade " id="premium" role="tabpanel" aria-labelledby="premium-template">
+  <!-- ------------***----------- -->
+  <!-- <div class="tab-pane fade " id="premium" role="tabpanel" aria-labelledby="premium-template">
                   <div class="content-list">
                     <ol>
                       <li>
@@ -455,8 +473,8 @@
                     </ol>
                   </div>
                 </div> -->
-                <!-- ------------***----------- -->
-                <!-- <div class="tab-pane fade " id="others" role="tabpanel" aria-labelledby="others-template">
+  <!-- ------------***----------- -->
+  <!-- <div class="tab-pane fade " id="others" role="tabpanel" aria-labelledby="others-template">
                   <div class="content-list">
                     <ol>
                       <li>
@@ -548,7 +566,7 @@
               </div>
               <div class="col-12">
                 <div class="form-submit-button">
-                <input class="form-submit-button" type="submit" name="">
+                  <input id="form-submit-button" type="submit" name="">
                 </div>
               </div>
             </div>
